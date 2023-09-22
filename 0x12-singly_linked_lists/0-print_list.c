@@ -19,7 +19,7 @@ size_t print_list(const list_t *h)
 		}
 		else
 		{
-			printf("[%d] %s\n");
+			printf("[%u] %s\n", h->len, h->str);
 		}
 
 		h = h->next;
@@ -28,3 +28,5 @@ size_t print_list(const list_t *h)
 
 	return (cnt);
 }
+
+
