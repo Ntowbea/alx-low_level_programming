@@ -2,10 +2,12 @@
 #include "lists.h"
 
 /**
- * Displays all the contents of a list_t linked list
- * The parameter 'h' is a pointer pointing to the linked list's head
+ * print_list - Displays all the contents of a list_t linked list
+ * @h: The parameter 'h' is a pointer pointing to the linked list's head
  *
- * Returns the count of nodes in the list.
+ * return: Returns the count of nodes in the list.
+ *
+ * Description: This function returns the number of nodes in the linked
  */
 size_t print_list(const list_t *h)
 {
